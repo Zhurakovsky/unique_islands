@@ -1,0 +1,64 @@
+[C Exercise]
+
+You have a 2 dimentional map with a certain width and height
+At coordinates x, y the map can be either "@" or "."
+For example the structure:
+
+{
+  width = 4
+  height = 4
+  data = "@@....@@..@@.@@@"
+}
+
+Represents the map:
+
+  @@..
+  ..@@
+  ..@@
+  .@@@
+ 
+An island is a contiguous group of "@" symbols
+In the above example there are two islands: in the top-left and bottom-right corners
+(Two "@" in diagonal are not considered from the same island)
+Your objective is to rename each island with a distinct letter
+A valid solution would be:
+
+  AA..
+  ..BB
+  ..BB
+  .BBB
+To do so, you will implement the body of two functions:
+  - "display_map": Displays the 2D map by printing on the standard output
+  - "process_map": Transforms the map by giving a unique letter to each island
+[C Exercise]
+
+You have a 2 dimentional map with a certain width and height
+At coordinates x, y the map can be either "@" or "."
+For example the structure:
+
+{
+  width = 4
+  height = 4
+  data = "@@....@@..@@.@@@"
+}
+
+Represents the map:
+
+  @@..
+  ..@@
+  ..@@
+  .@@@
+ 
+An island is a contiguous group of "@" symbols
+In the above example there are two islands: in the top-left and bottom-right corners
+(Two "@" in diagonal are not considered from the same island)
+Your objective is to rename each island with a distinct letter
+A valid solution would be:
+
+  AA..
+  ..BB
+  ..BB
+  .BBB
+To do so, you will implement the body of two functions:
+  - "display_map": Displays the 2D map by printing on the standard output
+  - "process_map": Transforms the map by giving a unique letter to each island
